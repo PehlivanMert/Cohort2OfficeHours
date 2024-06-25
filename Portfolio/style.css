@@ -71,6 +71,9 @@ section {
   color: var(--main-color);
 }
 
+.profile-img {
+  animation-delay: 0.5s;
+}
 /* Home */
 .home {
   display: flex;
@@ -149,11 +152,18 @@ section {
   background-clip: text;
   top: 0;
   left: 0;
+  margin-right: 14rem;
 }
 
 .last-span {
-  margin-left: 15rem;
+  margin-left: 14rem;
   color: var(--text-color);
+}
+
+#home > div.home-content > h3:nth-child(3) {
+  white-space: nowrap;
+  display: inline-block;
+  vertical-align: top;
 }
 
 @keyframes anime-front {
